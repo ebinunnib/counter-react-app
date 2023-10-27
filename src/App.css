@@ -1,9 +1,16 @@
 div{
+  /* margin-top: 20PX; */
   text-align: center;
-  background-color: beige;
-  padding: 10px;
+  background-color: rgb(7, 248, 148);
+  /* padding: 20px; */
+  
 }
 button{
   margin-left: 10px;
+  border-radius: 10PX;
+  padding: 10px;
 
+}
+button:hover{
+  background-color: chartreuse;
 }

@@ -20,11 +20,11 @@ function App() {
   
 
   return (
-    <div className="App">
+    <div >
       <h1 style={{color:'green',}}>COUNTER APP</h1>
       <h1 style={{size:"xxlarge"}}>{value}</h1>
-      <button onClick={()=>increment(value+1)}>Increment</button>
-      <button onClick={()=>decrement(value-1)}>Decrement</button>
+      <button onClick={()=>increment(value+1)}>+</button>
+      <button onClick={()=>decrement(value-1)}>   -</button>
       <button onClick={reset}>Reset</button>
 
 

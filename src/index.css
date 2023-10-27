@@ -1,5 +1,9 @@
 div{
+  width: 500PX;
   border: 1px black solid;
+  background-color: blue;
   align-items: center;
+  border-radius: 20px;
+   /* display:flex; */
   
-}
+} 
